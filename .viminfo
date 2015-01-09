@@ -142,19 +142,20 @@ $search_product_category_id
 	購物金的增減記錄
 
 # File marks:
-'0  1  11  ~/.gitignore
-'1  71  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
-'2  3  0  /var/www/html/jackie_chao.alley.52886.tw/api/active.php
-'3  256  0  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
-'4  1  0  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
-'5  16  33  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
-'6  35  7  /var/www/html/jackie_chao.alley.52886.tw/api/201207/set_order_exchange.php
-'7  430  0  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
-'8  15  8  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
-'9  1  0  /var/www/html/jackie_chao.alley.52886.tw/include/log.ini
+'0  2  7  ~/.gitignore
+'1  1  11  ~/.gitignore
+'2  71  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
+'3  3  0  /var/www/html/jackie_chao.alley.52886.tw/api/active.php
+'4  256  0  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
+'5  1  0  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
+'6  16  33  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
+'7  35  7  /var/www/html/jackie_chao.alley.52886.tw/api/201207/set_order_exchange.php
+'8  430  0  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
+'9  15  8  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
 
 # Jumplist (newest first):
--'  1  11  ~/.gitignore
+-'  2  7  ~/.gitignore
+-'  1  0  ~/.gitignore
 -'  71  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
 -'  114  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
 -'  1  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
@@ -252,15 +253,17 @@ $search_product_category_id
 -'  16  33  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
 -'  57  0  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
 -'  35  7  /var/www/html/jackie_chao.alley.52886.tw/api/201207/set_order_exchange.php
--'  39  57  /var/www/html/jackie_chao.alley.52886.tw/api/201207/set_order_exchange.php
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	1	11
-	^	1	12
-	.	1	11
-	+	1	11
+	"	2	7
+	^	2	8
+	.	2	7
+	+	1	12
+	+	2	2
+	+	1	2
+	+	2	7
 
 > /var/www/html/jackie_chao.alley.52886.tw/include/helper/zendTableLoader.php
 	"	7	22
