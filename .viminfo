@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/include
+~MSle0~/>>
 
 # Last Substitute Search Pattern:
 ~MSle0&product_main_category_id
@@ -17,8 +17,8 @@
 $search_product_category_id
 
 # Command Line History (newest to oldest):
-:q!
 :wq!
+:q!
 :qa
 :q
 :w!
@@ -39,6 +39,8 @@ $search_product_category_id
 :175,189>
 
 # Search String History (newest to oldest):
+?/>>
+?/>>>
 ?/include
 ?/jack
 ?/jack	
@@ -57,8 +59,6 @@ $search_product_category_id
 ?/Today
 ?/shell
 ?/shee
-?/cache
-?/setting
 
 # Expression History (newest to oldest):
 
@@ -75,87 +75,101 @@ $search_product_category_id
 	 * @date    2015/01/08
 	 */
 ""1	LINE	0
-	//echo 'inside active test'; exit();
-	
+	>>>>>>> 2e9dafb8d57c0a8d2944e3c1854543f5e151e884
 "2	LINE	0
-	
+	<<<<<<< HEAD
+		"	1	6
+	=======
 "3	LINE	0
-	    Public function list3Action()
-	    {
-	        echo APPLICATION_PATH; exit();
-	    }
-	
-	    Public function list2Action()
-	    {
-	        include_once dirname(__FILE__)."/../../../include/moneyTool.php";
-	
-	        $uid = 99999;
-	        $money_type = Table_UserMoneyBook::MONEY_TYPE_SUCCESS_PAY_USE_MONEY;
-	        $money = 123;
-	        $old_remain_money = 100;
-	        $new_remain_money = 223;
-	        $product_id = 9999901;
-	        $org_order_id = 'TEST_EC9999900001';
-	
-	        $money_expire_time = '2015-01-01 12:00:00';
-	        $expired = 1;
-	
-	        $params = array();
-	        $params['product_id'] = $product_id;
-	
-	        moneyTool::db_money_log($uid, $money_type, $money, $old_remain_money, $new_remain_money, $money_expire_time, $expired, $params, $org_order_id);
-	        echo 'ok'; echo Table_UserMoneyBook::MONEY_TYPE_SUCCESS_PAY_USE_MONEY; exit(); 
-	    }
-	
+	>>>>>>> 2e9dafb8d57c0a8d2944e3c1854543f5e151e884
 "4	LINE	0
-	 * money工具
+	<<<<<<< HEAD
+	=======
 "5	LINE	0
-	
+	>>>>>>> 2e9dafb8d57c0a8d2944e3c1854543f5e151e884
 "6	LINE	0
-	/*
-	$uid = 99999;                                                                                                                                      
-	$money_type = Table_UserMoneyBook::MONEY_TYPE_SUCCESS_PAY_USE_MONEY;
-	$money = 123000;                                                                                                                                      
-	$old_remain_money = 100;                                                                                                                           
-	$new_remain_money = 223;                                                                                                                           
-	$product_id = 9999901;                                                                                                                             
-	$org_order_id = 'TEST_EC9999900001';                                                                                                               
-	
-	$money_expire_time = '2015-01-01 12:00:00';
-	$expired = 1;
-	
-	$params = array();
-	$params['product_id'] = $product_id;
-	
-	moneyTool::db_money_log($uid, $money_type, $money, $old_remain_money, $new_remain_money, $money_expire_time, $expired, $params, $org_order_id);
-	 */
-	
-	//$m2 = microtime();
-	//echo ($m2-$m1)*1000 . "<br>";
+	<<<<<<< HEAD
+	-'  1  6  ~/.gitignore
+	-'  2  7  ~/.gitignore
+	=======
 "7	LINE	0
-	
+	<<<<<<< HEAD
+	-'  1  6  ~/.gitignore
+	-'  2  7  ~/.gitignore
+	=======
+	-'  2  7  ~/.gitignore
+	-'  1  0  ~/.gitignore
+	>>>>>>> 2e9dafb8d57c0a8d2944e3c1854543f5e151e884
+	-'  71  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
+	-'  114  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
+	-'  1  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
+	-'  1  0  /var/www/html/jackie_chao.alley.52886.tw/include/helper/zendTableLoader.php
+	-'  3  0  /var/www/html/jackie_chao.alley.52886.tw/api/active.php
+	-'  1  0  /var/www/html/jackie_chao.alley.52886.tw/api/active.php
+	-'  256  0  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
+	-'  330  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
+	-'  1  0  /var/www/html/jackie_chao.alley.52886.tw/manage/application/models/Table/UserMoneyBook.php
+	-'  1  0  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
+	-'  16  33  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
+	-'  57  0  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
+	-'  35  7  /var/www/html/jackie_chao.alley.52886.tw/api/201207/set_order_exchange.php
+	-'  39  57  /var/www/html/jackie_chao.alley.52886.tw/api/201207/set_order_exchange.php
+	-'  49  33  /var/www/html/jackie_chao.alley.52886.tw/api/201207/set_order_exchange.php
+	-'  36  8  /var/www/html/jackie_chao.alley.52886.tw/api/201207/set_order_exchange.php
+	-'  69  20  /var/www/html/jackie_chao.alley.52886.tw/api/active.php
+	-'  43  33  /var/www/html/jackie_chao.alley.52886.tw/api/active.php
+	-'  42  14  /var/www/html/jackie_chao.alley.52886.tw/api/active.php
+	-'  40  41  /var/www/html/jackie_chao.alley.52886.tw/api/active.php
+	-'  39  22  /var/www/html/jackie_chao.alley.52886.tw/api/active.php
+	-'  10  0  /var/www/html/jackie_chao.alley.52886.tw/api/active.php
+	-'  430  0  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
+	-'  492  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
+	-'  15  8  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
+	-'  17  17  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
+	-'  77  21  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
+	-'  1  0  /var/www/html/jackie_chao.alley.52886.tw/include/log.ini
+	-'  4  0  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
+	-'  22  0  /var/www/html/jackie_chao.alley.52886.tw/test/remove_order.php
+	-'  1  0  /var/www/html/jackie_chao.alley.52886.tw/test/remove_order.php
+	-'  4  8  /var/www/html/jackie_chao.alley.52886.tw/test/get_product.php
+	-'  1  0  /var/www/html/jackie_chao.alley.52886.tw/test/get_product.php
+	-'  11  0  /var/www/html/jackie_chao.alley.52886.tw/include/moneyTool.php
+	-'  1  0  /var/www/html/jackie_chao.alley.52886.tw/include/moneyTool.php
+	-'  5  0  /var/www/html/jackie_chao.alley.52886.tw/api/201411/NERD_tree_1
+	-'  7  2  /var/www/html/jackie_chao.alley.52886.tw/api/201411/NERD_tree_1
 "8	LINE	0
-	        //$expired = 1;
+	>>>>>>> 2e9dafb8d57c0a8d2944e3c1854543f5e151e884
 "9	LINE	0
-	        //$money_expire_time = '2015-01-01 12:00:00';
+	<<<<<<< HEAD
+	'0  1  6  ~/.gitignore
+	'1  2  7  ~/.gitignore
+	=======
 "-	CHAR	0
 	購物金的增減記錄
 
 # File marks:
-'0  1  6  ~/.gitignore
-'1  2  7  ~/.gitignore
-'2  71  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
-'3  3  0  /var/www/html/jackie_chao.alley.52886.tw/api/active.php
-'4  256  0  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
-'5  1  0  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
-'6  16  33  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
-'7  35  7  /var/www/html/jackie_chao.alley.52886.tw/api/201207/set_order_exchange.php
-'8  430  0  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
-'9  15  8  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
+'0  39  0  ~/.viminfo
+'1  1  6  ~/.gitignore
+'2  2  7  ~/.gitignore
+'3  71  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
+'4  3  0  /var/www/html/jackie_chao.alley.52886.tw/api/active.php
+'5  256  0  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
+'6  1  0  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
+'7  16  33  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
+'8  35  7  /var/www/html/jackie_chao.alley.52886.tw/api/201207/set_order_exchange.php
+'9  430  0  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
 
 # Jumplist (newest first):
--'  1  6  ~/.gitignore
+-'  39  0  ~/.viminfo
+-'  296  1  ~/.viminfo
+-'  196  0  ~/.viminfo
+-'  147  3  ~/.viminfo
+-'  261  3  ~/.viminfo
+-'  256  3  ~/.viminfo
+-'  974  1  ~/.viminfo
+-'  1  0  ~/.viminfo
 -'  2  7  ~/.gitignore
+-'  1  0  ~/.gitignore
 -'  71  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
 -'  114  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
 -'  1  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
@@ -230,33 +244,23 @@ $search_product_category_id
 -'  218  0  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
 -'  292  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
 -'  1  0  /var/www/html/jackie_chao.alley.52886.tw/manage/application/models/Table/UserMoneyBook.php
--'  1  0  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
--'  16  33  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
--'  57  0  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
--'  35  7  /var/www/html/jackie_chao.alley.52886.tw/api/201207/set_order_exchange.php
--'  39  57  /var/www/html/jackie_chao.alley.52886.tw/api/201207/set_order_exchange.php
--'  49  33  /var/www/html/jackie_chao.alley.52886.tw/api/201207/set_order_exchange.php
--'  36  8  /var/www/html/jackie_chao.alley.52886.tw/api/201207/set_order_exchange.php
--'  392  0  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
--'  454  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
--'  15  8  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
--'  71  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
--'  114  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
--'  1  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
--'  1  0  /var/www/html/jackie_chao.alley.52886.tw/include/helper/zendTableLoader.php
--'  3  0  /var/www/html/jackie_chao.alley.52886.tw/api/active.php
--'  1  0  /var/www/html/jackie_chao.alley.52886.tw/api/active.php
--'  256  0  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
--'  330  2  /var/www/html/jackie_chao.alley.52886.tw/NERD_tree_1
--'  1  0  /var/www/html/jackie_chao.alley.52886.tw/manage/application/models/Table/UserMoneyBook.php
--'  1  0  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
--'  16  33  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
--'  57  0  /var/www/html/jackie_chao.alley.52886.tw/include/config.ini
 
 # History of marks within files (newest to oldest):
 
+> ~/.viminfo
+	"	39	0
+	.	261	0
+	+	145	0
+	+	147	0
+	+	157	0
+	+	159	0
+	+	255	0
+	+	256	0
+	+	260	0
+	+	261	0
+
 > ~/.gitignore
-	"	1	6
+	"	2	7
 	^	2	8
 	.	2	7
 	+	1	12
